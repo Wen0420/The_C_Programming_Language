@@ -1,0 +1,5 @@
+﻿Build started...
+1>------ Build started: Project: Learning C, Configuration: Debug Win32 ------
+1>Self_learning Part 1.c
+1>Learning C.vcxproj -> C:\Users\tangw\Desktop\C\Learning C\Debug\Learning C.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
