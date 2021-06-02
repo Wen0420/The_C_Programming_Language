@@ -12,11 +12,23 @@
 //	return 0;
 //}
 
-# define MAX 10
+//# define MAX 10
+//int main()
+//{
+//	int arr[MAX] = { 0 };
+//	printf("%d\n", MAX);
+//	return 0;
+//}
+
+enum Color
+{
+	RED,
+	YELLOW,
+	BLUE
+};
+
 int main()
 {
-	int arr[MAX] = { 0 };
-	printf("%d\n", MAX);
+	enum Color color = BLUE;
 	return 0;
 }
-
