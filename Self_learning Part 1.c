@@ -66,17 +66,32 @@
 //
 //}//有问题，但不知道为什么？**************************************
 
+//int main()
+//{
+//	int line = 0;
+//	printf("Enter into BT\n");
+//	while (line < 200)
+//	{
+//		printf("tap one line code: %d\n", line);
+//		line++;
+//	}
+//	printf("Get a good offer");
+//	return 0;
+//}
+
+int Add(int x, int y)
+{
+	int z = x + y;
+	return z;
+}
 int main()
 {
-	int line = 0;
-	printf("Enter into BT\n");
-	while (line < 200)
-	{
-		printf("tap one line code \n");
-		line++;
-	}
-	printf("Get a good offer");
+	int num1 = 0;
+	int num2 = 0;
+	int sum = 0;
+	printf("put in two numbers:>");
+	scanf("%d%d", &num1, &num2);
+	sum = num1 + num2;
+	printf("sum = % d\n", sum);
 	return 0;
 }
-
-
