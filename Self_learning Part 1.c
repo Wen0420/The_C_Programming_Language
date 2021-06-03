@@ -20,15 +20,54 @@
 //	return 0;
 //}
 
-enum Color
-{
-	RED,
-	YELLOW,
-	BLUE
-};
+//enum Color
+//{
+//	RED,
+//	YELLOW,
+//	BLUE
+//};
+//
+//int main()
+//{
+//	enum Color color = BLUE;
+//	return 0;
+//}
+
+//int main()
+//{
+//	char arr1[] = "abc";
+//	char arr2[] = { 'a','b','c', 0};
+//	printf("%s\n", arr1);
+//	printf("%s\n", arr2);
+//	return 0;
+//}
+
+//int main()
+//{
+//	char arr1[] = "abc";
+//	char arr2[] = { 'a','b','c'};
+//	printf("%d\n", strlen(arr1));
+//	printf("%d\n", strlen(arr2));
+//	return 0;
+//}
 
 int main()
 {
-	enum Color color = BLUE;
+	int input = 0;
+	printf("Enter into BT\n");
+	printf("Do you want to study hard?(1/0)>:");
+	scanf("%d\n, &input");
+
+
+	if (input == 1)
+
+	{
+		printf("Get a good offer.\n");
+	}
+	else
+	{
+		printf("go to sell the sweet root.\n");
+	}
 	return 0;
+
 }
