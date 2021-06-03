@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
+﻿#define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 //int main()
 //{
@@ -51,23 +51,32 @@
 //	return 0;
 //}
 
+//int main()
+//{
+//	int input = 0;
+//	printf("enter into bt\n");
+//	printf("do you want to study hard?(1/0)>:");
+//	scanf("%d\n, &input");
+//
+//	if (input == 1)
+//		printf("get a good offer.\n");
+//	else
+//		printf("go to sell the sweet root.\n");
+//	return 0;
+//
+//}//有问题，但不知道为什么？**************************************
+
 int main()
 {
-	int input = 0;
+	int line = 0;
 	printf("Enter into BT\n");
-	printf("Do you want to study hard?(1/0)>:");
-	scanf("%d\n, &input");
-
-
-	if (input == 1)
-
+	while (line < 200)
 	{
-		printf("Get a good offer.\n");
+		printf("tap one line code \n");
+		line++;
 	}
-	else
-	{
-		printf("go to sell the sweet root.\n");
-	}
+	printf("Get a good offer");
 	return 0;
-
 }
+
+
