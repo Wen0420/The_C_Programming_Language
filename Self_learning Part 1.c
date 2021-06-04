@@ -79,6 +79,7 @@
 //	return 0;
 //}
 
+// 函数
 int Add(int x, int y)
 {
 	int z = x + y;
@@ -95,3 +96,5 @@ int main()
 	printf("sum = % d\n", sum);
 	return 0;
 }
+
+
