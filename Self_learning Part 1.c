@@ -135,14 +135,36 @@
 //}//The cube of 3 is 27.
 
 
-// The uses of \"
+// The uses of \" if you need to print \ then we need \\
+//int main()
+//{
+//	char id = 'z';
+//	int num = 1234567;
+//	printf("Your \"login ID\" will be in the form of %c%d.\n", id, num);
+//	return 0;
+//}//Your "login ID" will be in the form of z1234567.
+
+//int main()
+//{
+//	int a = 1;
+//	int b = 5;
+//	while (a < b) {
+//		a++;
+//		b--;
+//	}
+//	return 0;
+//}
+
 int main()
 {
-	char id = 'z';
-	int num = 1234567;
-	printf("Your \"login ID\" will be in the form of %c%d.\n", id, num);
+	int a = 1;
+	int b = 5;
+	while ((a += 2) < b) {
+		b--;
+	}
 	return 0;
-}//Your "login ID" will be in the form of z1234567.
+}
+
 
 
 
