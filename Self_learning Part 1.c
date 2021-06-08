@@ -111,10 +111,28 @@ int f (int m, int n)
 	return m;
 }
 
-int main(void) {
-	printf("%d\n", f(30, 18));
-	return 0;
-}//6
+//int main(void) {
+//	printf("%d\n", f(30, 18));
+//	return 0;
+//}//6
+//
+//insertionSort(A):
+//	input aray A[0..n-1] of n elements
+//	for all i = 1..n-1 do
+//		element = A[i], j = i - 1
+//		while j >= 0 and A[j] > element do
+//			A[j+1] = A[j]
+//			j = j-1
+//	end while 
+//	A[j + 1] = element
+//end for 
+
+
+
+
+
+
+
 
 
 
