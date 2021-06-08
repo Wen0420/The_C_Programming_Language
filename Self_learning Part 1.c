@@ -80,21 +80,43 @@
 //}
 
 // 函数
-int Add(int x, int y)
+//int Add(int x, int y)
+//{
+//	int z = x + y;
+//	return z;
+//}
+//int main()
+//{
+//	int num1 = 0;
+//	int num2 = 0;
+//	int sum = 0;
+//	printf("put in two numbers:>");
+//	scanf("%d%d", &num1, &num2);
+//	sum = num1 + num2;
+//	printf("sum = % d\n", sum);
+//	return 0;
+//}
+
+#include <stdio.h>
+int f (int m, int n) 
 {
-	int z = x + y;
-	return z;
+	while (m != n) {
+		if (m > n) {
+			m = m - n;
+		}
+		else {
+			n = n - m;
+		}
+	}
+	return m;
 }
-int main()
-{
-	int num1 = 0;
-	int num2 = 0;
-	int sum = 0;
-	printf("put in two numbers:>");
-	scanf("%d%d", &num1, &num2);
-	sum = num1 + num2;
-	printf("sum = % d\n", sum);
+
+int main(void) {
+	printf("%d\n", f(30, 18));
 	return 0;
-}
+}//6
+
+
+
 
 
