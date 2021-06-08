@@ -97,19 +97,19 @@
 //	return 0;
 //}
 
-#include <stdio.h>
-int f (int m, int n) 
-{
-	while (m != n) {
-		if (m > n) {
-			m = m - n;
-		}
-		else {
-			n = n - m;
-		}
-	}
-	return m;
-}
+//#include <stdio.h>
+//int f (int m, int n) 
+//{
+//	while (m != n) {
+//		if (m > n) {
+//			m = m - n;
+//		}
+//		else {
+//			n = n - m;
+//		}
+//	}
+//	return m;
+//}
 
 //int main(void) {
 //	printf("%d\n", f(30, 18));
@@ -126,6 +126,24 @@ int f (int m, int n)
 //	end while 
 //	A[j + 1] = element
 //end for 
+
+//int main()
+//{
+//	int num = 3;
+//	printf(" The cube of %d is %d.\n", num, num * num * num);
+//	return 0;
+//}//The cube of 3 is 27.
+
+
+// The uses of \"
+int main()
+{
+	char id = 'z';
+	int num = 1234567;
+	printf("Your \"login ID\" will be in the form of %c%d.\n", id, num);
+	return 0;
+}//Your "login ID" will be in the form of z1234567.
+
 
 
 
