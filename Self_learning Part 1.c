@@ -155,15 +155,33 @@
 //	return 0;
 //}
 
+//int main()
+//{
+//	int a = 1;
+//	int b = 5;
+//	while ((a += 2) < b) {
+//		b--;
+//	}
+//	return 0;
+//}
+
+
 int main()
 {
-	int a = 1;
-	int b = 5;
-	while ((a += 2) < b) {
-		b--;
+	for (int i = 1; i < 10; i++) {
+		printf(" % d % d\n", 1, i * i);
 	}
 	return 0;
 }
+1  1
+1  4
+1  9
+1  16
+1  25
+1  36
+1  49
+1  64
+1  81
 
 
 
