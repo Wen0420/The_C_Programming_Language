@@ -241,18 +241,32 @@
 //	return 0;
 //}
 
+//int main()
+//{
+//	int arr[10] = { 0 };
+//	int sz = 0;
+//	printf("%d\n", sizeof(arr));
+//	printf("%d\n", sizeof(arr[0]));
+//	sz = sizeof(arr) / sizeof(arr[0]);
+//	printf("sz = %d\n", sz);
+//	return 0;
+//}//40
+////4
+////sz = 10
+
 int main()
 {
-	int arr[10] = { 0 };
-	int sz = 0;
-	printf("%d\n", sizeof(arr));
-	printf("%d\n", sizeof(arr[0]));
-	sz = sizeof(arr) / sizeof(arr[0]);
-	printf("sz = %d\n", sz);
+	int a = 3;
+	int b = 5;
+	printf("before change: a = %d b = %d\n", a, b);
+
+	a = a ^ b;
+	b = a ^ b;
+	a = a ^ b;
+	printf("after change: a = %d b = %d\n", a, b);
 	return 0;
-}//40
-//4
-//sz = 10
+}//before change: a = 3 b = 5
+//after change : a = 5 b = 3
 
 
 
