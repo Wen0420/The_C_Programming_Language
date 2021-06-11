@@ -233,13 +233,26 @@
 
 //}//6
 
+//int main()
+//{
+//	int a = 10;
+//	printf("%d\n", a);
+//	printf("%d\n", !a);
+//	return 0;
+//}
+
 int main()
 {
-	int a = 10;
-	printf("%d\n", a);
-	printf("%d\n", !a);
+	int arr[10] = { 0 };
+	int sz = 0;
+	printf("%d\n", sizeof(arr));
+	printf("%d\n", sizeof(arr[0]));
+	sz = sizeof(arr) / sizeof(arr[0]);
+	printf("sz = %d\n", sz);
 	return 0;
-}
+}//40
+//4
+//sz = 10
 
 
 
