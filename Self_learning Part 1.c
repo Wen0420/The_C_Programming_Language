@@ -195,15 +195,51 @@
 //	return 0;
 //}
 
+//int main()
+//{
+//	int a = 1;
+//	int b = a << 2;
+//	printf("%d\n", b);
+//	return 0;
+//}//4
+//
+//int main()
+//{
+//	int a = 3;
+//	int b = 5;
+//	int c = a & b;
+//	printf("%d\n", c);
+//	return 0;
+//
+//}//1
+
+//int main()
+//{
+//	int a = 3;
+//	int b = 5;
+//	int c = a | b;
+//	printf("%d\n", c);
+//	return 0;
+//
+//}//7
+
+//int main()
+//{
+//	int a = 3;
+//	int b = 5;
+//	int c = a ^ b;
+//	printf("%d\n", c);
+//	return 0;
+
+//}//6
+
 int main()
 {
-	int a = 1;
-	int b = a << 2;
-	printf("%d\n", b);
+	int a = 10;
+	printf("%d\n", a);
+	printf("%d\n", !a);
 	return 0;
 }
-
-
 
 
 
