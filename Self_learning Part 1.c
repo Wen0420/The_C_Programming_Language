@@ -268,21 +268,34 @@
 //}//before change: a = 3 b = 5
 ////after change : a = 5 b = 3
 
+//int main()
+//{
+//	int a = 3;
+//	int b = 5;
+//	printf("before change: a = %d b = %d\n", a, b);
+//
+//	a = a + b;
+//	b = a - b;
+//	a = a - b;
+//	printf("after change: a = %d b = %d\n", a, b);
+//	return 0;
+//}//before change: a = 3 b = 5
+////after change : a = 5 b = 3
+
 int main()
 {
 	int a = 3;
 	int b = 5;
+	int c = 0;
 	printf("before change: a = %d b = %d\n", a, b);
 
-	a = a + b;
-	b = a - b;
-	a = a - b;
+	c = a;
+	a = b;
+	b = c;
 	printf("after change: a = %d b = %d\n", a, b);
 	return 0;
 }//before change: a = 3 b = 5
 //after change : a = 5 b = 3
-
-
 
 
 
