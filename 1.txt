@@ -1,7 +1,0 @@
-﻿Build started...
-1>------ Build started: Project: Learning C, Configuration: Debug Win32 ------
-1>Self_learning Part 1.c
-1>C:\Users\tangw\Desktop\C\Learning C\Self_learning Part 1.c(49,23): warning C4013: 'strlen' undefined; assuming extern returning int
-1>Learning C.vcxproj -> C:\Users\tangw\Desktop\C\Learning C\Debug\Learning C.exe
-1>Done building project "Learning C.vcxproj".
-========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
