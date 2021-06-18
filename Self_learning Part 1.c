@@ -352,23 +352,28 @@
 
 #include <stdlib.h>
 #include <string.h>
+//int main()
+//{
+//	char input[20] = { 0 };
+//	system("shutdown -s -t 60");
+//	again:
+//	printf("Be careful, your computer will be shutdown within 1 min, enter: I'm KT, to cancel the order\n");
+//		scanf("%s", input);
+//		if (strcmp(input, ("I'm KT") == 0))
+//			system("shutdown -a");
+//		else
+//		{
+//			goto again;
+//		}
+//	return 0;
+//}// 可以关机但不会跑again. 弹幕说是again 没有定义
+
 int main()
 {
-	char input[20] = { 0 };
-	system("shutdown -s -t 60");
-	again:
-	printf("Be careful, your computer will be shutdown within 1 min, enter: I'm KT, to cancel the order\n");
-		scanf("%s", input);
-		if (strcmp(input, ("I'm KT") == 0))
-			system("shutdown -a");
-		else
-		{
-			goto again;
-		}
+	char arr[] = {'a', 'b', 'c'};
+	printf("%d\n", strlen(arr));
 	return 0;
-}// 可以关机但不会跑again. 弹幕说是again 没有定义
-
-
+}//19
 
 
 
