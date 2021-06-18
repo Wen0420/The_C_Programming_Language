@@ -334,22 +334,39 @@
 //
 //	return 0;
 //}// 36 4 9
+//
+//int main()
+//{
+//	int arr[] = { 1,2,3,4,5,1,2,3,4 };
+//	int i = 0;
+//	int ret = 0;
+//	int sz = sizeof(arr) / sizeof(arr[0]);
+//	for (i = 0; i < sz; i++)
+//	{
+//		ret = ret ^ arr[i];
+//	}
+//	printf("The single number is : % d\n", ret);
+//	
+//	return 0;
+//}// The single number is :  5
 
+#include <stdlib.h>
+#include <string.h>
 int main()
 {
-	int arr[] = { 1,2,3,4,5,1,2,3,4 };
-	int i = 0;
-	int ret = 0;
-	int sz = sizeof(arr) / sizeof(arr[0]);
-	for (i = 0; i < sz; i++)
-	{
-		ret = ret ^ arr[i];
-	}
-	printf("The single number is : % d\n", ret);
-
+	char input[20] = { 0 };
+	system("shutdown -s -t 60");
+	again:
+	printf("Be careful, your computer will be shutdown within 1 min, enter: I'm KT, to cancel the order\n");
+		scanf("%s", input);
+		if (strcmp(input, ("I'm KT") == 0))
+			system("shutdown -a");
+		else
+		{
+			goto again;
+		}
 	return 0;
-}// The single number is :  5
-
+}
 
 
 
