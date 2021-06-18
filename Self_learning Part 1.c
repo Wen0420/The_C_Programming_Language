@@ -368,12 +368,18 @@
 //	return 0;
 //}// 可以关机但不会跑again. 弹幕说是again 没有定义
 
+//int main()
+//{
+//	char arr[] = {'a', 'b', 'c'};
+//	printf("%d\n", strlen(arr));
+//	return 0;
+//}//19
+
 int main()
 {
-	char arr[] = {'a', 'b', 'c'};
-	printf("%d\n", strlen(arr));
+	printf("%d\n", strlen("c:\test\121"));
 	return 0;
-}//19
+}//7
 
 
 
