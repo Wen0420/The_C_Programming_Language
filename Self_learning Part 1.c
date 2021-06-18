@@ -366,7 +366,12 @@ int main()
 			goto again;
 		}
 	return 0;
-}
+}// 可以关机但不会跑again. 弹幕说是again 没有定义
+
+
+
+
+
 
 
 
