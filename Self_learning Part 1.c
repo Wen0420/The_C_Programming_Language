@@ -375,11 +375,12 @@
 //	return 0;
 //}//19
 
-int main()
-{
-	printf("%d\n", strlen("c:\test\121"));
-	return 0;
-}//7
+//int main()
+//{
+//	printf("%d\n", strlen("c:\test\121"));
+//	return 0;
+//}//7
+
 
 
 
