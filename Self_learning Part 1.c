@@ -422,24 +422,34 @@
 //	return 0;
 //}// max = 20
 
-Max(int x, int y)
-{
-	if (x > y)
-		return x;
-	else
-		return y;
-}
+//Max(int x, int y)
+//{
+//	if (x > y)
+//		return x;
+//	else
+//		return y;
+//}
+//
+//int main()
+//{
+//	int num1 = 0;
+//	int num2 = 0;
+//	int max = 0;
+//	max = Max(num1, num2);
+//	scanf("%d%d", &num1, &num2);
+//	printf("max = %d\n", max);
+//	return 0;
+//}// 20 10
+// // max = 20
 
 int main()
 {
-	int num1 = 0;
-	int num2 = 0;
-	int max = 0;
-	max = Max(num1, num2);
-	scanf("%d%d", &num1, &num2);
-	printf("max = %d\n", max);
+	int a = 0;
+	int b = ~a;
+	printf("%d\n", b);
 	return 0;
-}// max = 20
+}
+
 
 
 
