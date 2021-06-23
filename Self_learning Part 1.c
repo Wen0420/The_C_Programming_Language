@@ -381,7 +381,17 @@
 //	return 0;
 //}//7
 
+int main()
+{
+	int num1 = 10;
+	int num2 = 20;
+	if (num1 > num2)
+		printf("The bigger num is %d\n", num1);
+	else
+		printf("The bigger num is %d\n", num2);
 
+	return 0;
+}//The bigger num is 20
 
 
 
