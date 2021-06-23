@@ -442,13 +442,23 @@
 //}// 20 10
 // // max = 20
 
+//int main()
+//{
+//	int a = 0;
+//	int b = ~a;
+//	printf("%d\n", b);
+//	return 0;
+//}// -1
+
 int main()
 {
-	int a = 0;
-	int b = ~a;
-	printf("%d\n", b);
+	int a = 10;
+	int b = a++;
+	printf("a = %d\n b = %d\n", a, b);
 	return 0;
 }
+//a = 11
+//b = 10
 
 
 
