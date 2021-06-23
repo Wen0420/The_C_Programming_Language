@@ -478,11 +478,23 @@
 //	return 0;
 //}//a = 9 b = 10
 
+//int main()
+//{
+//	int a = 10;
+//	int b = --a;
+//	printf("a = %d b = %d\n", a, b);
+//	return 0;
+//}//a = 9 b = 9
+
+//int main()
+//{
+//	int a = 3.14;
+//	return 0;
+//}
+
 int main()
 {
-	int a = 10;
-	int b = --a;
-	printf("a = %d b = %d\n", a, b);
+	int a = (int)3.14;
 	return 0;
-}//a = 9 b = 9
+}
 
