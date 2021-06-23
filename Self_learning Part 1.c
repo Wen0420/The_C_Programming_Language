@@ -450,19 +450,39 @@
 //	return 0;
 //}// -1
 
+//int main()
+//{
+//	int a = 10;
+//	int b = a++;
+//	printf("a = %d\n b = %d\n", a, b);
+//	return 0;
+//}
+////a = 11
+////b = 10
+
+//int main()
+//{
+//	int a = 10;
+//	int b = ++a;
+//	printf("a = %d\n b = %d\n", a, b);
+//	return 0;
+//}
+////a = 11
+////b = 10
+//
+//int main()
+//{
+//	int a = 10;
+//	int b = a--;
+//	printf("a = %d b = %d\n", a, b);
+//	return 0;
+//}//a = 9 b = 10
+
 int main()
 {
 	int a = 10;
-	int b = a++;
-	printf("a = %d\n b = %d\n", a, b);
+	int b = --a;
+	printf("a = %d b = %d\n", a, b);
 	return 0;
-}
-//a = 11
-//b = 10
-
-
-
-
-
-
+}//a = 9 b = 9
 
