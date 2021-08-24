@@ -508,11 +508,34 @@
 //}
 
 
+//int main()
+//{
+//	int a = 0;
+//	int b = 3;
+//	int c = a && b;
+//	printf("c = %d\n", c);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a = 0;
+//	int b = 3;
+//	int c = a || b;
+//	printf("c = %d\n", c);
+//	return 0;
+//}
+
+//compare two numbers
 int main()
 {
-	int a = 0;
-	int b = 3;
-	int c = a && b;
-	printf("c = %d\n", c);
+	int a = 10;
+	int b = 20;
+	int max = 0;
+	if (a > b)
+		max = a;
+	else
+		max = b;
+	printf("max = %d\n", max);
 	return 0;
 }
