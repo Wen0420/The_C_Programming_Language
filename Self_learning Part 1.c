@@ -526,16 +526,42 @@
 //	return 0;
 //}
 
-//compare two numbers
+////compare two numbers
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	int max = 0;
+//	if (a > b)
+//		max = a;
+//	else
+//		max = b;
+//	printf("max = %d\n", max);
+//	return 0;
+//}
+
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	int max = 0;
+//	max = (a > b ? a : b);
+//	printf("max = %d\n", max);
+//	return 0;
+//}
+
+int Add(int x, int y)
+{
+	int z = 0;
+	z = x + y;
+	return z;
+}
+
 int main()
 {
 	int a = 10;
 	int b = 20;
-	int max = 0;
-	if (a > b)
-		max = a;
-	else
-		max = b;
-	printf("max = %d\n", max);
+	int sum = Add(a, b);
+	printf("sum = %d\n", sum);
 	return 0;
 }
